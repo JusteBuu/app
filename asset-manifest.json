@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.c17501fb.css",
+    "main.js": "/app/static/js/main.d15122cc.js",
+    "static/media/pokeball.svg": "/app/static/media/pokeball.499612a7b5342abac926a67c13deb442.svg",
+    "index.html": "/app/index.html",
+    "main.c17501fb.css.map": "/app/static/css/main.c17501fb.css.map",
+    "main.d15122cc.js.map": "/app/static/js/main.d15122cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c17501fb.css",
+    "static/js/main.d15122cc.js"
+  ]
+}
