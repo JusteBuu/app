@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+body {
+	background-color: #aeb0b9;
+	margin: 0;
+	padding: 0;
+	font-family: "Titillium Web", sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 75px;
+    margin-left: 10px;
+}
+
+.left-content{
+    flex-basis: 50%;
+}
+
+.right-content{
+    flex-basis: 40%;
+}
+
+
+.card {
+    width: 300px;
+	height: 100PX;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.right-content{
+
+    width: 40%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:150px;
+    right: 10px;
+}
+
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.abilities {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group {
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.stats {
+    margin-top: 2rem;
+}
+
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+/*about page*/
+
+.about {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.heading { 
+    color: #ffffff; 
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+    font-size: 35px; 
+    font-weight: 300; 
+    line-height: 80px; 
+    margin: 0 0 58px; 
+}
+
+.info { 
+    color: #1d303c; 
+    font-family: 'Lucida Sans', Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 30px; 
+    margin: 0; 
+}
+
+/*navbar*/
+
+.header img{
+    width: 3%;
+    margin-left: 20px;
+}
+
+.navLink {
+    margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #ddb814;
+	--textColor: #eee;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	background-color: rgb(55, 55, 73);
+    padding: 10px 10px;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+.header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+
+.header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	.nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.header nav {
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	transition: 1s;
+}
+
+.header .responsive_nav {
+    transform: translateY(100vh);
+}
+
+nav .nav-close-btn {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+
